@@ -1,0 +1,17 @@
+{
+  "name": "cloudprnt",
+  "version": "0.0.1",
+  "description": "Basic nodejs star micronics CloudPRNT test server",
+  "repository": "git@github.com:Starchup/cloudprnt.git",
+  "main": "server/server.js",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3"
+  },
+  "scripts": {
+    "pretest": "jshint server"
+  },
+  "devDependencies": {
+    "chai": "4.1.2"
+  }
+}
