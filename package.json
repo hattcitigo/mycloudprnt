@@ -6,7 +6,8 @@
   "main": "server/server.js",
   "dependencies": {
     "body-parser": "1.18.2",
-    "express": "4.16.3"
+    "express": "4.16.3",
+    "requests": "^0.2.2"
   },
   "scripts": {
     "pretest": "jshint server"
